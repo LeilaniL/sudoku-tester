@@ -15,7 +15,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Template',
+      title: 'Sudoku Checker',
       template: './src/index.html',
       inject: 'body'
     }),

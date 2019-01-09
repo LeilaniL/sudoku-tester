@@ -5,14 +5,18 @@
     },
     "extends": "eslint:recommended",
     "env": {
-      "es6": true,
-      "browser": true,
-      "jquery": true
+        "es6": true,
+        "browser": true,
+        "jquery": true
     },
     "rules": {
         "semi": 1,
-        "indent": ["warn", 2],
+        "indent": [
+            "warn",
+            2
+        ],
         "no-console": "warn",
-        "no-debugger": "warn"
+        "no-debugger": "warn",
+        "no-unused-vars": "warn"
     }
 }
